@@ -1,0 +1,603 @@
+            * {
+                /* border: 1px solid yellow; */
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;0,800;1,300;1,600&display=swap');
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            nav {
+                font-family: 'Inter', sans-serif;
+            }
+            
+            p {
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            .inline-block {
+                display: inline-block;
+                vertical-align: top;
+            }
+            
+            header {
+                display: flex;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+            }
+            
+            .logo {
+                background-color: #000000;
+                text-align: center;
+                height: 84px;
+            }
+            
+            nav {
+                width: 100%;
+                background-color: #000000;
+                color: white;
+                height: 84px;
+            }
+            
+            nav ul {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                margin-left: 2rem;
+            }
+            
+            nav ul li {
+                font-size: 18px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 500;
+            }
+            
+            body {
+                background-color: black;
+                margin-top: 90px;
+            }
+            
+            main {
+                display: flex;
+                /* justify-content: center; */
+                min-height: 800px;
+                flex-wrap: wrap;
+            }
+            
+            #altHeading {
+                display: none;
+                color: #FFD465;
+                background-image: url('../images/homeimage.png');
+                background-repeat: no-repeat;
+                width: auto;
+                height: 800px;
+            }
+            
+            #left {
+                flex: 1 1 25%;
+                margin-right: 5em;
+                min-width: 176px;
+                max-width: 527px;
+            }
+            
+            #left img {
+                width: 100%;
+                padding: 20px;
+            }
+            
+            #left button {
+                float: right;
+            }
+            
+            #right {
+                /* flex: 1 1 75%; */
+            }
+            
+            .content {
+                width: 1024px;
+            }
+            
+            #altHeading h1,
+            #right h1 {
+                font-size: 48px;
+                color: #FFD465;
+            }
+            
+            .hFlex {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            #offsetTxtContainer {
+                display: flex;
+                width: 470px;
+                max-height: 50px;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .whiteTxt {
+                color: white;
+            }
+            
+            .blueTxt {
+                color: #65BEFF;
+            }
+            
+            .positionedTxt {
+                align-self: flex-end;
+                margin-top: -19px;
+            }
+            
+            .contentAbout {
+                color: white;
+                font-size: 24px;
+                margin-right: 3rem;
+            }
+            
+            #animationWrapper {
+                padding-top: 2rem;
+                width: 451px;
+            }
+            
+            #animationWrapper img {
+                width: 451px;
+            }
+            
+            .highLightedProjects {
+                display: flex;
+                padding-left: 100px;
+                padding-top: 32px;
+                font-size: 32px;
+                font-weight: 500;
+                font-family: 'Inter', sans-serif;
+                color: #65BEFF;
+            }
+            
+            button {
+                background-color: #65BEFF;
+                color: black;
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                width: 163.25px;
+                height: 39.5px;
+                padding: 10px 20px;
+                border-radius: 8px;
+                margin-right: 20px;
+            }
+            
+            .highlightButton {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            
+            .sectionEndPadding {
+                display: flex;
+                width: 100%;
+                padding: 5rem;
+            }
+            /* about me css end */
+            /* My Wsork ccs grid starts -------------------- my work */
+            /* work header section ----------*/
+            
+            #workHeader {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            #workHeader h1 {
+                color: #FFD465;
+                font-size: 48px;
+                margin: 32px;
+            }
+            
+            #workHeader h2 {
+                color: #65BEFF;
+                font-size: 36px;
+                font-weight: 500;
+                display: flex;
+                /* justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end; */
+                gap: 1rem;
+                margin: 32px;
+            }
+            /* work styles and text styles ---------- */
+            
+            .workSum h2 {
+                color: white;
+                font-size: 36px;
+                font-weight: 700;
+                font-family: 'Inter', sans-serif;
+                width: 375px;
+                margin: 32px;
+            }
+            
+            .workSum p {
+                color: white;
+                width: 375px;
+                height: 436px;
+                margin: 32px 32px 16px 32px;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            
+            .workSum .yellowTxt {
+                color: #FFD465;
+                font-weight: 700;
+            }
+            
+            .projectTitle {
+                color: white;
+                font-family: 'Inter', sans-serif;
+                font-size: 36px;
+                font-weight: 600;
+                margin-top: 1rem;
+                margin-bottom: 4rem;
+            }
+            
+            .proj1-subHeadStyle {
+                color: white;
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            
+            .proj2-subHeadStyle {
+                color: white;
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            
+            .projBriefTxt {
+                color: white;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 24px;
+                font-weight: normal;
+            }
+            
+            #viewProjCta {
+                margin-top: 1rem;
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 12rem;
+                width: 203px;
+                height: 44px;
+            }
+            
+            #viewProjCta button {
+                width: 163.25px;
+                height: 39.5px;
+            }
+            /* my work grid -------------------------------------grid work here */
+            
+            #workGrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-areas: "left middle right";
+            }
+            
+            #leftWork {
+                grid-area: left;
+            }
+            
+            #middleWork {
+                grid-area: middle;
+            }
+            
+            #rightWork {
+                grid-area: right;
+                align-self: end;
+            }
+            
+            #gridContainer1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas: "one two";
+                width: 851px;
+                height: 375px;
+                margin: 17px 1px 0 0;
+                padding: 1px 0 1px 1px;
+                border-radius: 8px;
+                border: solid 2px #77c2fb;
+            }
+            
+            #gridContainer2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 189.5px;
+                grid-template-areas: "one two" "3 4";
+                width: 851px;
+                height: 375px;
+                margin: 17px 1px 0 0;
+                padding: 1px 0 1px 1px;
+                border-radius: 8px;
+                border: solid 2px #77c2fb;
+            }
+            
+            .proj1-item1 {
+                grid-area: one;
+            }
+            
+            .proj1-item2 {
+                grid-area: two;
+            }
+            /* #gridContainer1 button {
+    align-self: end;
+} */
+            /* My Work ccs grid ends */
+            /* My Skills css flex starts*/
+            
+            #skillsHeader h1 {
+                color: #FFD465;
+                font-size: 48px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                margin: 32px;
+            }
+            
+            #mySkills .flexContainer {
+                display: flex;
+                gap: 1rem;
+            }
+            
+            #mySkills {
+                display: flex;
+                flex: wrap;
+            }
+            
+            #mySkills>* {
+                flex-wrap: wrap;
+            }
+            
+            .skillSum h2 {
+                color: white;
+                font-size: 36px;
+                font-weight: 700;
+                font-family: 'Inter', sans-serif;
+                width: 375px;
+                margin: 32px;
+            }
+            
+            .skillSum p {
+                color: white;
+                width: 375px;
+                height: 425px;
+                margin: 32px 32px 16px 32px;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            
+            .skillSum .yellowTxt {
+                color: #FFD465;
+                font-weight: 700;
+            }
+            
+            .skillSum img {
+                width: 209px;
+                height: 210.1px;
+                display: flex;
+                margin: auto;
+                object-fit: contain;
+            }
+            
+            .skillsListFlexContainer {
+                display: flex;
+            }
+            
+            .uResearch {
+                margin: 2rem;
+            }
+            
+            .uResearch img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+            }
+            
+            .uResearch h3 {
+                color: white;
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
+            
+            .uResearch ul {
+                color: white;
+                width: 375px;
+                height: 510px;
+                margin: 0.5px 16px 16px 16px;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                text-align: left;
+            }
+            
+            .uDesign {
+                margin-top: 2rem;
+            }
+            
+            .uDesign img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+            }
+            
+            .uDesign h3 {
+                color: white;
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
+            
+            .uDesign ul {
+                color: white;
+                width: 375px;
+                height: 510px;
+                margin: 0.5px 16px 16px 16px;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                text-align: left;
+            }
+            
+            .webD {
+                margin: 2rem;
+            }
+            
+            .webD img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                padding-top: 32px;
+                padding-bottom: 23px;
+            }
+            
+            .webD h3 {
+                color: white;
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
+            
+            .webD ul {
+                color: white;
+                width: 375px;
+                height: 510px;
+                margin: 0.5px 16px 16px 16px;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                text-align: left;
+            }
+            
+            .tools {
+                margin: 2rem;
+            }
+            
+            .tools img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+            }
+            
+            .tools h3 {
+                color: white;
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+            }
+            
+            .tools ul {
+                color: white;
+                width: 375px;
+                height: 510px;
+                margin: 0.5px 16px 16px 16px;
+                font-family: 'OpenSans', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                text-align: left;
+            }
+            /* My Skills ccs flex ends */
+            /* my work grid and my skills flex media querry start---------------- */
+            
+            @media only screen and (max-width: 600px) {
+                .flexContainer {
+                    flex-direction: column;
+                    width: 100%;
+                }
+                #workGrid {
+                    grid-template-rows: 616px 1350px 375px;
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "left" "middle" "right";
+                    width: 100%;
+                }
+                #gridContainer1 {
+                    grid-template-rows: 375px 375px;
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "one" "two";
+                    width: 436px;
+                    height: 755px;
+                    margin: 2rem;
+                }
+                .proj1-item1 {
+                    grid-area: one two;
+                }
+                #gridContainer2 {
+                    grid-template-rows: 375px 375px;
+                    grid-template-columns: 1fr;
+                    grid-template-areas: "one" "two";
+                    width: 436px;
+                    height: 755px;
+                    margin: 2rem;
+                }
+                .proj2-item1 {
+                    grid-area: one two;
+                }
+                .projBriefTxt {
+                    margin: 1rem;
+                }
+                #viewProjCta {
+                    margin-top: 1rem;
+                    margin-right: 1rem;
+                    margin-bottom: 1rem;
+                    margin-left: 14rem;
+                    width: 203px;
+                    height: 44px;
+                }
+                #rightWork img {
+                    margin-left: 22.5rem
+                }
+            }
+            /* my work grid and my skills flex media querry end---------------- */
+            /* about me media querry --------------------- */
+            
+            @media only screen and (max-width: 1372px) {
+                #altHeading {
+                    display: block;
+                    width: 100%;
+                }
+                #right,
+                #left img {
+                    display: none;
+                }
+            }
+            
+            @media only screen and (max-width: 1000px) {
+                #altHeading {
+                    display: none;
+                }
+                #right,
+                #left img {
+                    display: block;
+                }
+            }
+            
+            @media only screen and (max-width: 953px) {
+                .hFlex {
+                    padding-bottom: 3rem;
+                }
+            }
